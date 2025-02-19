@@ -9,7 +9,7 @@ type Peer struct {
 func NewPeer(conn net.Conn) *Peer {
 	return &Peer{conn: conn}
 }
-func (p *Peer) ReadLoop() {
+func (p *Peer) readLoop() {
 	for {
 
 	}
